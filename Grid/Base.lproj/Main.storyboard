@@ -94,11 +94,32 @@
                                 <rect key="frame" x="179" y="772" width="75" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="btnStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Euf-Qi-1py"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnEight" destination="lzS-Gg-tih" id="lpt-hz-QQb"/>
+                        <outlet property="btnEleven" destination="P1M-Mc-6fP" id="N11-Ah-gT2"/>
+                        <outlet property="btnFifteen" destination="tpm-PD-Sdz" id="9pN-Xw-bJI"/>
+                        <outlet property="btnFive" destination="ymE-ZT-OHp" id="oqQ-NY-L9P"/>
+                        <outlet property="btnFour" destination="7qG-k6-Gkh" id="hRW-4H-4YX"/>
+                        <outlet property="btnFourteen" destination="387-Kx-At7" id="ikv-Z0-Qx9"/>
+                        <outlet property="btnNine" destination="Vze-kX-Pqd" id="2VI-Fi-BJz"/>
+                        <outlet property="btnOne" destination="JM3-Oi-rGB" id="Z1l-YE-S5z"/>
+                        <outlet property="btnSeven" destination="4jG-Yq-FdU" id="dXH-Oh-V2p"/>
+                        <outlet property="btnSix" destination="bZX-Hi-nLF" id="j1g-rJ-Gy1"/>
+                        <outlet property="btnStart" destination="san-oD-0uo" id="Q9s-j0-rOz"/>
+                        <outlet property="btnTen" destination="EKZ-ON-Ddr" id="lGI-tw-EBs"/>
+                        <outlet property="btnThirteen" destination="see-Iu-ugx" id="IWo-O0-fKu"/>
+                        <outlet property="btnThree" destination="Uf6-gb-D60" id="rlx-vV-qtn"/>
+                        <outlet property="btnTwelve" destination="cvU-rm-JZS" id="Via-nB-dwY"/>
+                        <outlet property="btnTwo" destination="JM3-Oi-rGB" id="3Or-Xq-H2v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
